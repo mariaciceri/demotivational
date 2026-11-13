@@ -36,9 +36,16 @@ function App() {
             .catch(() => setError("Something went wrong in our backend. We are fixing it"));
     }, []);
 
-  return (
-      <>
-      <h1>BEGIN</h1>
+    function getQuote(id: number) {
+        const quote = quotes.find((quote) => quote.id === id);
+        setQuoteToDisplay(quote);
+    }
+
+    return (
+        <div className="flex h-screen flex-col">
+            <h1 className="font-londrina text-shadow-purple-300 text-shadow-2xs text-6xl sm:text-9xl text-center p-3 skew-2 m-4 sm:m-8 wrap-break-word">
+                DEMOTIVATIONAL QUOTES
+            </h1>
 
             {quotes.length === 0 ? (
                 <p>{error}</p>
