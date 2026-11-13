@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "quote": "Trying is the first step toward failure.",
+    "author": "Homer Simpson"
+  },
+  {
+    "id": 2,
+    "quote": "Not everything is a lesson. Sometimes you just fail.",
+    "author": "Dwight Schrute"
+  },
+  {
+    "id": 3,
+    "quote": "Always remember that you are absolutely unique. Just like everyone else.",
+    "author": "Margaret Mead"
+  },
+  {
+    "id": 4,
+    "quote": "If at first you don't succeed, try, try again. Then quit. No use being a damn fool about it.",
+    "author": "W. C. Fields"
+  },
+  {
+    "id": 5,
+    "quote": "It could be that your purpose in life is to serve as a warning to others.",
+    "author": "Ashleigh Brilliant"
+  },
+  {
+    "id": 6,
+    "quote": "Those who doubt your ability probably have a valid reason.",
+    "author": "Unknown"
+  },
+  {
+    "id": 7,
+    "quote": "The best things in life are actually really expensive.",
+    "author": "Unknown"
+  },
+  {
+    "id": 8,
+    "quote": "Just imagine how terrible it might have been if we'd been at all competent.",
+    "author": "Terry Pratchett"
+  },
+  {
+    "id": 9,
+    "quote": "I've developed a new philosophy. I only dread one day at a time.",
+    "author": "Charles M. Schulz"
+  },
+  {
+    "id": 10,
+    "quote": "Hope is the first step on the road to disappointment.",
+    "author": "Cassern S. Goto"
+  },
+  {
+    "id": 11,
+    "quote": "Everything happens for a reason. Sometimes the reason is you're stupid and make bad decisions.",
+    "author": "Marion G. Harmon"
+  },
+  {
+    "id": 12,
+    "quote": "Everyone has a purpose in life. Perhaps yours is watching television.",
+    "author": "David Letterman"
+  },
+  {
+    "id": 13,
+    "quote": "Your life can't fall apart if you never had it together.",
+    "author": "Anonymous"
+  },
+  {
+    "id": 14,
+    "quote": "The worst part of success is trying to find someone who is happy for you.",
+    "author": "Bette Midler"
+  },
+  {
+    "id": 15,
+    "quote": "Every dead body on Mt. Everest was once a highly motivated person, so… maybe calm down.",
+    "author": "Unknown"
+  },
+  {
+    "id": 16,
+    "quote": "Just because someone accepts you as you are doesn’t mean they’ve abandoned hope you’ll improve.",
+    "author": "Unknown"
+  },
+  {
+    "id": 17,
+    "quote": "If life doesn’t break you today, don’t worry. It will try again tomorrow.",
+    "author": "Unknown"
+  },
+  {
+    "id": 18,
+    "quote": "People say nothing is impossible, but I do nothing every day.",
+    "author": "Winnie the Pooh"
+  },
+  {
+    "id": 19,
+    "quote": "By working faithfully eight hours a day you may eventually get to be boss and work twelve hours a day.",
+    "author": "Robert Frost"
+  },
+  {
+    "id": 20,
+    "quote": "There are no stupid questions, but there are a LOT of inquisitive idiots.",
+    "author": "Justin Sewell"
+  },
+  {
+    "id": 21,
+    "quote": "People who say they’ll give 110% don’t understand how percentages work.",
+    "author": "Unknown"
+  },
+  {
+    "id": 22,
+    "quote": "A thousand-mile journey starts with one step. Then again, so does falling in a ditch and breaking your neck.",
+    "author": "Anonymous"
+  },
+  {
+    "id": 23,
+    "quote": "Dream is the only way for you to escape the miserable reality of your life.",
+    "author": "Anonymous"
+  },
+  {
+    "id": 24,
+    "quote": "If at first you don't succeed, give up and try something else.",
+    "author": "Anonymous"
+  },
+  {
+    "id": 25,
+    "quote": "Always believe that something wonderful will probably never happen.",
+    "author": "Anonymous"
+  },
+  {
+    "id": 26,
+    "quote": "Always remember you're someone's reason to smile because you're a joke.",
+    "author": "Anonymous"
+  },
+  {
+    "id": 27,
+    "quote": "Dream big, set goals. Write goals on a nice paper and never look at them again.",
+    "author": "Some Guy"
+  },
+  {
+    "id": 28,
+    "quote": "Life is pain, Highness. Anyone who says differently is selling something.",
+    "author": "Westley (The Princess Bride)"
+  },
+  {
+    "id": 29,
+    "quote": "Get used to disappointment.",
+    "author": "Westley (The Princess Bride)"
+  },
+  {
+    "id": 30,
+    "quote": "Hope is a dangerous thing. Hope can drive a man insane.",
+    "author": "Red (The Shawshank Redemption)"
+  },
+  {
+    "id": 31,
+    "quote": "Life? Don't talk to me about life.",
+    "author": "Marvin the Paranoid Android (The Hitchhiker's Guide to the Galaxy)"
+  },
+  {
+    "id": 32,
+    "quote": "If you never try anything new, you’ll miss out on many of life’s great disappointments.",
+    "author": "Unknown"
+  },
+  {
+    "id": 33,
+    "quote": "What if there is no tomorrow? There wasn't one today.",
+    "author": "Phil Connors"
+  },
+  {
+    "id": 34,
+    "quote": "Game over, man! Game over!",
+    "author": "Private Hudson"
+  },
+  {
+    "id": 35,
+    "quote": "All those moments will be lost in time, like tears in rain.",
+    "author": "Roy Batty"
+  },
+  {
+    "id": 36,
+    "quote": "When everyone's super, no one will be.",
+    "author": "Syndrome (The Incredibles)"
+  },
+  {
+    "id": 37,
+    "quote": "Stupid is as stupid does.",
+    "author": "Forrest Gump"
+  },
+  {
+    "id": 38,
+    "quote": "We're doomed!",
+    "author": "C-3PO"
+  },
+  {
+    "id": 39,
+    "quote": "You are not even supposed to be here today!",
+    "author": "Dante Hicks (Clerks)"
+  },
+  {
+    "id": 40,
+    "quote": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "author": "Albert Einstein"
+  }
+]
