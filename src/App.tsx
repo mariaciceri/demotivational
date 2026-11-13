@@ -1,3 +1,4 @@
+import * as z from "zod";
 import {useEffect, useState} from 'react'
 import './App.css'
 
@@ -7,11 +8,14 @@ function App() {
     const [usedQuotesId, setUsedQuotesId] = useState<number[]>([]);
     const [quoteToDisplay, setQuoteToDisplay] = useState<Quote>();
 
-    type Quote = {
-        id: number;
-        quote: string;
-        author: string;
-    }
+    const QuoteSchema = z.object({
+        id: z.number(),
+        quote: z.string(),
+        author: z.string()
+    });
+
+    const QuotesSchema = z.array(QuoteSchema);
+    type Quote = z.infer<typeof QuoteSchema>;
 
     function getRandomQuoteId(): void {
         const usedQuotes = usedQuotesId.length >= quotes.length ? [] : usedQuotesId;
@@ -33,8 +37,11 @@ function App() {
                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                 return res.json();
             })
-            .then((data: Quote[]) => setQuotes(data))
-            .catch(() => setError("Something went wrong in our backend. We are fixing it"));
+            .then((data : unknown) => setQuotes(QuotesSchema.parse(data)))
+            .catch((err) => {
+                console.error(err.issues);
+                setError("Something went wrong in our backend. We are fixing it");
+            });
     }, []);
 
     function getQuote(id: number) {
