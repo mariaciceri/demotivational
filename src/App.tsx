@@ -5,7 +5,7 @@ function App() {
     const [quotes, setQuotes] = useState<Quote[]>([]);
     const [error, setError] = useState<string | null>(null);
     const [usedQuotesId, setUsedQuotesId] = useState<number[]>([]);
-    const [quoteToDisplay, setQuoteToDisplay] = useState<number>()
+    const [quoteToDisplay, setQuoteToDisplay] = useState<Quote>();
 
     type Quote = {
         id: number;
