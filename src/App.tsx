@@ -22,7 +22,7 @@ function App() {
             getRandomQuoteId();
         } else {
             setUsedQuotesId([...usedQuotes, quoteNumber]);
-            setQuoteToDisplay(quoteNumber);
+            getQuote(quoteNumber);
         }
     }
 
