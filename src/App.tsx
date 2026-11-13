@@ -64,7 +64,7 @@ function App() {
                             quoteToDisplay.quote : "Click on the button to get something uninspirational!"}
                     </p>
                     <button
-                        className="shadow-fuchsia-300 shadow-lg p-3 m-4 rounded-md bg-black/70 text-fuchsia-300 text-3xl"
+                        className="shadow-fuchsia-300 shadow-lg p-3 m-4 rounded-md bg-black/70 text-fuchsia-300 text-3xl hover:bg-black"
                         onClick={getRandomQuoteId}>
                         New quote
                     </button>
