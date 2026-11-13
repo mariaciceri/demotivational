@@ -16,6 +16,7 @@ function App() {
     function getRandomQuoteId(): void {
         const usedQuotes = usedQuotesId.length >= quotes.length ? [] : usedQuotesId;
 
+        // eslint-disable-next-line react-hooks/purity
         const quoteNumber: number = Math.floor(quotes.length * Math.random() + 1);
 
         if (usedQuotes.includes(quoteNumber)) {
@@ -48,16 +49,21 @@ function App() {
             </h1>
 
             {quotes.length === 0 ? (
-                <p>{error}</p>
+                <p>Hold up a minute: {error}</p>
             ) : (
-                <p>{quotes.length}</p>
+                <div className="text-center p-5 flex flex-1 flex-col items-center">
+                    <p className="backdrop-blur-sm p-4 rounded-lg text-2xl sm:text-7xl mx-4 sm:mx-32 my-auto wrap-break-word">
+                        {quoteToDisplay ?
+                            quoteToDisplay.quote : "Click on the button to get something uninspirational!"}
+                    </p>
+                    <button
+                        className="shadow-fuchsia-300 shadow-lg p-3 m-4 rounded-md bg-black/70 text-fuchsia-300 text-3xl"
+                        onClick={getRandomQuoteId}>
+                        New quote
+                    </button>
+                </div>
             )}
-
-            <button onClick={getRandomQuoteId}>QUICK ME</button>
-            <p>{quoteToDisplay}</p>
-
-
-        </>
+        </div>
     )
 }
 
